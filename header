@@ -1,0 +1,51 @@
+
+<?php
+/**
+ * Plugin Name: Header File
+ * Description: This Plugin add header to the blog page activate it for header
+ * plugin URI: Coding blog
+ * Author: M usman Khan
+ * Version: 1.01
+ */
+
+
+add_action('wp_body_open','topbar_Heading');
+
+function topbar_Heading(){
+    if(!is_user_logged_in()){
+    echo '<h2 class="tb_head"> Welcome to '.get_bloginfo('name').'</h2>';
+    }
+    else {
+        echo '<h2 class="tb_head"> Welcome '.wp_get_current_user()->user_login.'</h2>';
+    }
+}
+add_action('wp_print_styles','Heading_style');
+
+function Heading_style(){
+    echo '
+    <style>
+    .tb_head{
+        font-size:35px;
+        color:white;
+        background:linear-gradient(rgba(255,255,0,0.8),rgba(255,245,0,0.5),rgba(255,255,255,0.8));
+        text-align:center;
+        height:100px;
+        padding-top:30px
+    }
+    </style>
+    ';
+}
+
+add_action('admin_init','add_to_menu');
+function add_to_menu(){
+    $page_title='Header';
+    $menu_title='Topbar Header';
+    $capability='manage_option';
+    $icon='dashicons-clipboard';
+    $slug='topbar-plugin';
+    $callback='topbar_page_html';
+    $position=60;
+
+    add_menu_page('header','Topbar header','manage_Option','topbar-plugin','topbar_page_html','dashicons-dlipboard',150);
+}
+?>
