@@ -1,14 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T08:07:59.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cOjCZ4onXlp9w3_mdf32" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T08:39:43.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7dI6T3zjKbfv7AI07Equ" version="24.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1290" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="674" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="1" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QlMjqYbcZZbXOqAkl8SX-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User&lt;/h1&gt;&lt;div&gt;#* userId&lt;/div&gt;&lt;div&gt;* username&lt;/div&gt;&lt;div&gt;* email&lt;/div&gt;&lt;div&gt;* password&lt;/div&gt;&lt;div&gt;o DOB&lt;/div&gt;&lt;div&gt;o gender&lt;/div&gt;&lt;div&gt;o location&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="70" width="100" height="160" as="geometry" />
-        </mxCell>
         <mxCell id="QlMjqYbcZZbXOqAkl8SX-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="60" width="120" height="180" as="geometry" />
+          <mxGeometry x="40" y="40" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;#* userId&lt;/div&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;* username&lt;/div&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;* email&lt;/div&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;* password&lt;/div&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;o DOB&lt;/div&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;o gender&lt;/div&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;o location&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="175" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Post&lt;/h1&gt;&lt;div&gt;#* postID&lt;/div&gt;&lt;div&gt;#* userID&lt;/div&gt;&lt;div&gt;* postContent&lt;/div&gt;&lt;div&gt;* postDate&lt;/div&gt;&lt;div&gt;o posteLocation&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="100" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="35" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Comment&lt;/h1&gt;&lt;div&gt;#* commentID&lt;/div&gt;&lt;div&gt;#* postID&lt;/div&gt;&lt;div&gt;#* userID&lt;/div&gt;&lt;div&gt;* commentContent&lt;/div&gt;&lt;div&gt;* commentDate&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="35" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-25" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Friendship&lt;/h1&gt;&lt;div&gt;#* freindshipID&lt;/div&gt;&lt;div&gt;#* user1ID&lt;/div&gt;&lt;div&gt;#* user2ID&lt;/div&gt;&lt;div&gt;* friendshipStartDate&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Message&lt;/h1&gt;&lt;div&gt;#* messageID&lt;/div&gt;&lt;div&gt;#* senderID&lt;/div&gt;&lt;div&gt;#* receicerID&lt;/div&gt;&lt;div&gt;* messagContent&lt;/div&gt;&lt;div&gt;* messageDate&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-30" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Group&lt;/h1&gt;&lt;div&gt;#* groupID&lt;/div&gt;&lt;div&gt;* groupName&lt;/div&gt;&lt;div&gt;* groupCreationDate&lt;br&gt;&lt;/div&gt;&lt;div&gt;o groupDescription&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="545" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Notification&lt;/h1&gt;&lt;div&gt;#* notificationID&lt;/div&gt;&lt;div&gt;#* userID&lt;/div&gt;&lt;div&gt;* notificationType&lt;/div&gt;&lt;div&gt;* notificationContent&lt;/div&gt;&lt;div&gt;* notificationDate&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="555" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-36" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="550" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Reaction&lt;/h1&gt;&lt;div&gt;# *reactionID&lt;/div&gt;&lt;div&gt;#* userID&lt;/div&gt;&lt;div&gt;&lt;div&gt;* reactionDate&lt;/div&gt;&lt;div&gt;* reactionType&lt;/div&gt;&lt;/div&gt;&lt;div&gt;o postID&lt;/div&gt;&lt;div&gt;o commentID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-38" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="545" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-39" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Page&lt;/h1&gt;&lt;div&gt;#* pageID&lt;/div&gt;&lt;div&gt;#* userID&lt;/div&gt;&lt;div&gt;* pageName&lt;/div&gt;&lt;div&gt;* pageCreationDate&lt;br&gt;&lt;/div&gt;&lt;div&gt;o pageDescription&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="550" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="795" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-41" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Photo&lt;/h1&gt;&lt;div&gt;#* photoID&lt;/div&gt;&lt;div&gt;#* userID&lt;/div&gt;&lt;div&gt;* photoUploaDate&lt;br&gt;&lt;/div&gt;&lt;div&gt;o albumID&lt;/div&gt;&lt;div&gt;o photoCaption&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="795" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="790" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-43" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Album&lt;/h1&gt;&lt;div&gt;#* AlbumID&lt;/div&gt;&lt;div&gt;#* userID&lt;/div&gt;&lt;div&gt;* albumCreationDate&lt;br&gt;&lt;/div&gt;&lt;div&gt;* albumName&lt;/div&gt;&lt;div&gt;o albumDescription&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="800" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-44" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="790" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlMjqYbcZZbXOqAkl8SX-45" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Event&lt;/h1&gt;&lt;div&gt;#* eventID&lt;/div&gt;&lt;div&gt;#* userID&lt;/div&gt;&lt;div&gt;* eventName&lt;/div&gt;&lt;div&gt;* eventLocation&lt;br&gt;&lt;/div&gt;&lt;div&gt;o eventDescription&lt;/div&gt;&lt;div&gt;o eventDate&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="795" width="160" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
